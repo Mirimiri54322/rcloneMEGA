@@ -4,7 +4,7 @@
 # GitHub repo with more instructions at https://github.com/Mirimiri54322/rcloneMEGA.
 
 LOGPATH='~/Documents/rcloneMEGA.log' # Change this to the path where you want the log to go, or to /dev/null for no log.
-touch $LOGPATH
+touch "$LOGPATH"
 
 printf "Beginning...\n" | ts '[%Y-%m-%d %H:%M:%S]' >> "$LOGPATH"
 
